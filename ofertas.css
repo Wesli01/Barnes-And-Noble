@@ -1,0 +1,125 @@
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #000000;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding: 6px;
+}
+
+header {
+    background-color: #cfbf28;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #366251;
+}
+
+
+footer {
+    background-color: #cfbf28;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 30px;
+}
+.redes-sociales {
+    margin-bottom: 10px;
+}
+.redes-sociales a {
+    color: #fff; 
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover {
+    color: #366251; 
+}
+/* Estilos para la sección de ofertas */
+.offers-section {
+    padding: 50px 0;
+}
+
+.offers-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.offer {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(50% - 10px);
+    max-width: 300px;
+    text-align: center;
+}
+
+.offer img {
+    width: 100%;
+    height: auto;
+}
+
+.offer-info {
+    padding: 20px;
+}
+
+.offer-info h3 {
+    margin: 10px 0;
+}
+
+.offer-info .description {
+    margin: 10px 0;
+    color: #666;
+}
+
+.offer-info .price {
+    font-size: 1.2em;
+    color: #ff6600;
+}
+
+.offer-info .old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}

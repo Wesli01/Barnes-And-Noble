@@ -1,0 +1,128 @@
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding: 6px;
+}
+
+header {
+    background-color: #cfbf28;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #366251;
+}
+
+
+footer {
+    background-color: #cfbf28;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #366251;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #74caa9;
+}
+
+.redes-sociales {
+    margin-bottom: 10px;
+}
+.redes-sociales a {
+    color: #fff; 
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover {
+    color: #366251; 
+}
+.hero {
+    background-image: url('bandn-books.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.advertisement {
+    background-color: #366251;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.advertisement h2 {
+    margin-bottom: 20px;
+}
+
+.advertisement .promo-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.advertisement .promo-product {
+    margin: 20px;
+}
+
+.advertisement .promo-product img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.advertisement .promo-product p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
